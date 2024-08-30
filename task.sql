@@ -14,7 +14,7 @@ CREATE TABLE Products (
 CREATE TABLE Customers (
     ID INT AUTO_INCREMENT,
     FirstName VARCHAR(50),
-    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
     Email VARCHAR(50),
     Address VARCHAR(100),
     PRIMARY KEY (ID)
